@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Artofwar::VERSION
   spec.authors       = ["Conrad Ottey"]
   spec.email         = ["ottey001@gmail.com"]
-  spec.description   = %q{Art of War lorem ipsum generator.}
-  spec.summary       = %q{simply generates Sun Tsu's art of war loren ipsum text }
+  spec.description   = %q{Art of War line generator.}
+  spec.summary       = %q{simply generates a random passage from Sun Tzu's Art Of War.}
   spec.homepage      = ""
   spec.license       = "MIT"
 

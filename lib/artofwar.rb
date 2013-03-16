@@ -1,7 +1,34 @@
 require "artofwar/version"
 
+text = File.read('artwar.1b.txt')
+chapters = []
+lined_text = []
+
+text = text.split('----------------------------------------------------------------------').shift
+
+text_array = text.split("\n\n")
+
+text_array.pop
+3.times do
+	text_array.shift
+end
+
+text_array.each do |thing|
+	if thing =~ /\d/
+		line = "#{thing}"
+		lined_text.push(line)
+	else
+		chap_titles = "Chapter #{thing}"
+		chapters.push(chap_titles)
+	end
+end
+
+# puts chapters
+@passage = lined_text.sample
+
 module Artofwar
-  def self.ipsum
-  	"Hence the saying: If you know the enemy and know yourself, you need not fear the result of a hundred battles. If you know yourself but not the enemy, for every victory gained you will also suffer a defeat. If you know neither the enemy nor yourself, you will succumb in every battle."
+  def self.passage
+  	puts @passage
   end
 end
+

@@ -1,6 +1,6 @@
 # Artofwar
 
-TODO: Write a gem description
+The Artofwar gem is a command line app that takes a random passage from Sun Tzu's Art of War.
 
 ## Installation
 
@@ -16,10 +16,6 @@ Or install it yourself as:
 
     $ gem install artofwar
 
-## Usage
-
-TODO: Write usage instructions here
-
 ## Contributing
 
 1. Fork it
@@ -27,3 +23,7 @@ TODO: Write usage instructions here
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+
+
+Text provided by [*MIT Classics Archive*](http://classics.mit.edu/)
+gem by [Conrad Ottey](https://github.com/CaptConrado).
